@@ -2,14 +2,26 @@ public class CustomStringMethodsRunner {
     public static void main(String[] args) {
         CustomStringMethods methods = new CustomStringMethods();
 
-        String str = methods.funnyString("computer", 3);
+        String str = methods.yellOrWhisper("Hello James!");
         System.out.println(str);
-        str = methods.funnyString("computer", 0);
+        str = methods.yellOrWhisper("hello James!");
         System.out.println(str);
-        str = methods.funnyString("computer", 7);
+        str = methods.yellOrWhisper("aBCDEFGHIJK");
         System.out.println(str);
-        str = methods.funnyString("apples", 1);
+        str = methods.yellOrWhisper("Abcdefghijk");
         System.out.println(str);
+        str = methods.yellOrWhisper("B");
+        System.out.println(str);
+        str = methods.yellOrWhisper("b");
+        System.out.println(str);
+        str = methods.yellOrWhisper("IT'S SUNNY!");
+        System.out.println(str);
+        str = methods.yellOrWhisper("it's rainy");
+        System.out.println(str);
+        
+        
+        
+        
         
     }
 }
