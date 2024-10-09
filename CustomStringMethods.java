@@ -160,7 +160,7 @@ public class CustomStringMethods {
         myString = myString.toLowerCase();
         return myString;
     }
-
+    
 }
 }
 
